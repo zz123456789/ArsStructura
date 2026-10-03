@@ -45,6 +45,6 @@ credentials.json
 /publishing/*.ps1
 /publishing/Build-CurseForge-Kit.mjs
 /publishing/UPLOAD-*.md
-/docs/UI_TEST_*.md
+
 /docs/client-language.json
 /publishing/README.md
