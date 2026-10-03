@@ -1,0 +1,50 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# Local dependency binaries, development logs and MDK archive
+/libs/*.jar
+/logs/
+/forge-*-mdk.zip
+
+# Generated publishing bundles and local upload records
+/publishing/CurseForge-ArsStructura-*/
+/publishing/*.zip
+/publishing/*-state.json
+/publishing/curseforge-file-metadata.json
+
+# Local credentials must never enter the source repository
+.env
+.env.*
+credentials.json
+*.secret
+
+# Local publishing operations and machine-specific test records
+/publishing/*.ps1
+/publishing/Build-CurseForge-Kit.mjs
+/publishing/UPLOAD-*.md
+/docs/UI_TEST_*.md
+/docs/client-language.json
+/publishing/README.md

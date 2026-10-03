@@ -1,0 +1,23 @@
+{
+  "pattern": [
+    " GR",
+    "GTG",
+    "RG "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "arsstructura:construction_tablet"
+    }
+  },
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "arsstructura:prefab_construction_tablet",
+    "count": 1
+  }
+}

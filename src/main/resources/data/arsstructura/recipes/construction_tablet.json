@@ -1,0 +1,23 @@
+{
+  "pattern": [
+    " SG",
+    "SPS",
+    "GS "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "G": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "arsstructura:construction_tablet",
+    "count": 1
+  }
+}
